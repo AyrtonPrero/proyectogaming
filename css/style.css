@@ -1,0 +1,439 @@
+
+/*font*/ 
+/*letra font-family: "Roboto", serif; */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+/*comentario
+fondo bordo#410707
+dorado #C69749
+celeste oscuro #1b3039
+*/
+/*generales*/
+/*RESET DE CSS*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62,5%;
+    font-family: "Roboto", serif
+}
+
+body{
+    background-color: #410707;
+}
+/* header*/ /*MODIFICANDO LA BARRA NAVEGADORA PARA QUE QUEDE COMO FIGMA*/
+.header{
+    background-color: #1b3039;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between ;
+    text-shadow: -7px 0px 14px rgba(1,1,1,0.79);
+
+}
+nav{
+    padding-top: 30px; /*sirve para alinar LA BARRA*/
+    padding-right: 60px;
+    width: 95%;
+}
+.ul{
+    
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between  ;
+
+}
+
+.cajanavegadora1{
+    color: #C69749;
+text-decoration: none;
+font-size: 3rem;
+
+}
+
+.cajanavegadora2{
+    color: #C69749;
+    font-size: 3rem;
+
+}
+
+.cajanavegadora3 a{
+color: #C69749;
+text-decoration: none;
+font-size: 3rem;
+}
+
+
+
+
+
+    /*transicion al logo*/
+.header .logo img{
+    margin: 10px;
+    border-radius: 80px 80px 80px 80px;
+    transition: all 0.3s;
+    
+}
+
+.header .logo img:hover{
+    transform: scale(1.2);
+
+}
+
+    /*menu*/
+main h2{
+    padding: 10px;
+    font-size: 2.5rem;
+    text-align: center;
+    color: #C69749;
+}
+
+ .imagenes{
+    display: flex;
+    justify-content: space-evenly;
+ }
+
+ .parrafo{
+    display: flex;
+    justify-content: center;
+    background-color:#1b3039 ;
+    font-size: 3rem;
+    color: #C69749;
+    margin: 20px;
+
+ }
+
+    /*seccion para entrar a los juegos*/
+ .section{
+    background-color: #1b3039;
+    border-radius:58px 58px 58px 58px;
+    /*box-shadow: 1px 10px 31px 23px;*/
+    box-shadow:  -2px 1px 16px 32px;
+    padding: 50px;
+    margin: 50px 400px;
+    height: 350px;
+ }
+ .fifavalocs {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+
+ }
+
+ .codforelden{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+ }
+
+    /*ponienndo transiciones en las imagenes de juegos*/
+
+.section .fifavalocs img:hover{
+    transform: scale(1.2);
+
+}
+.section .codforelden img:hover{
+    transform: scale(1.2);
+
+}
+
+
+/*PAGINA VALORANT*/
+
+/*empezando a modificar las paginas de los juegos, primero VALORANT*/
+.bodyvalo{
+    background-color: #410707;
+}
+/* header*/ /*MODIFICANDO LA BARRA NAVEGADORA PARA QUE QUEDE COMO FIGMA*/
+.headervalo{
+    background-color: #1b3039;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between ;
+    text-shadow: -7px 0px 14px rgba(1,1,1,0.79);
+
+}
+.navvalo{
+    padding-top: 30px; /*sirve para alinar LA BARRA*/
+    padding-right: 60px;
+    width: 95%;
+}
+.ulvalo{
+    
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between  ;
+
+}
+
+.cajavalorant1{
+    color: #C69749;
+text-decoration: none;
+font-size: 3rem;
+
+}
+
+.cajavalorant2{
+    color: #C69749;
+    font-size: 3rem;
+
+}
+
+.cajavalorant3 a{
+color: #C69749;
+text-decoration: none;
+font-size: 3rem;
+}
+
+
+/*PAGINA CALL OF DUTY*
+
+body{
+    background-color: #410707;
+}
+/* header*/ /*MODIFICANDO LA BARRA NAVEGADORA PARA QUE QUEDE COMO FIGMA*/
+.bodycod{
+    background-color:#410707
+}
+.headercod{
+    background-color: #1b3039;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between ;
+    text-shadow: -7px 0px 14px rgba(1,1,1,0.79);
+
+}
+
+.h1cod{
+    padding-top: 40px;
+    font-size: 3rem;
+}
+.navcod{
+    padding-top: 30px; /*sirve para alinar LA BARRA*/
+    padding-right: 60px;
+    width: 85%;
+}
+.ulcod{
+    
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between  ;
+
+}
+
+.cajacod1{
+    color: #C69749;
+text-decoration: none;
+font-size: 3rem;
+
+}
+
+
+.cajacod2{
+    color: #C69749;
+    font-size: 3rem;
+    padding-top: 1px;
+}
+
+.cajacod3 a{
+color: #C69749;
+text-decoration: none;
+font-size: 4rem;
+}
+
+
+/*PAGINA DE CSS*/
+
+
+/*MODIFICANDO LA BARRA NAVEGADORA PARA QUE QUEDE COMO FIGMA*/
+
+.headercs{
+    background-color: #1b3039;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between ;
+    text-shadow: -7px 0px 14px rgba(1,1,1,0.79);
+
+}
+
+.h1cs{
+    padding-top: 40px;
+    font-size: 3rem;
+}
+.navcs{
+    padding-top: 30px; /*sirve para alinar LA BARRA*/
+    padding-right: 60px;
+    width: 85%;
+}
+.ulcs{
+    
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between  ;
+
+}
+
+.cajacs1{
+    color: #C69749;
+text-decoration: none;
+font-size: 3rem;
+
+}
+
+
+.cajacs2{
+    color: #C69749;
+    font-size: 3rem;
+    padding-top: 1px;
+}
+
+.cajacs3 a{
+color: #C69749;
+text-decoration: none;
+font-size: 4rem;
+}
+
+/*PAGINA ELDEN RING*/
+
+/*empezando a modificar las paginas de los juegos, primero VALORANT*/
+.bodyelden{
+    background-color: #410707;
+}
+/* header*/ /*MODIFICANDO LA BARRA NAVEGADORA PARA QUE QUEDE COMO FIGMA*/
+.headerelden{
+    background-color: #1b3039;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between ;
+    text-shadow: -7px 0px 14px rgba(1,1,1,0.79);
+
+}
+.navelden{
+    padding-top: 30px; /*sirve para alinar LA BARRA*/
+    padding-right: 60px;
+    width: 95%;
+}
+.ulelden{
+    
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between  ;
+
+}
+
+.cajaelden1{
+    color: #C69749;
+text-decoration: none;
+font-size: 3rem;
+
+}
+
+.cajaelden2{
+    color: #C69749;
+    font-size: 3rem;
+
+}
+
+.cajaelden3 a{
+color: #C69749;
+text-decoration: none;
+font-size: 3rem;
+}
+
+
+/*PAGINA FIFA*/
+
+/*empezando a modificar las paginas de los juegos, primero VALORANT*/
+.bodyfifa{
+    background-color: #410707;
+}
+/* header*/ /*MODIFICANDO LA BARRA NAVEGADORA PARA QUE QUEDE COMO FIGMA*/
+.headerfifa{
+    background-color: #1b3039;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between ;
+    text-shadow: -7px 0px 14px rgba(1,1,1,0.79);
+
+}
+.navfifa{
+    padding-top: 30px; /*sirve para alinar LA BARRA*/
+    padding-right: 60px;
+    width: 95%;
+}
+.ulfifa{
+    
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between  ;
+
+}
+
+.cajafifa1{
+    color: #C69749;
+text-decoration: none;
+font-size: 3rem;
+
+}
+
+.cajafifa2{
+    color: #C69749;
+    font-size: 3rem;
+
+}
+
+.cajafifa3 a{
+color: #C69749;
+text-decoration: none;
+font-size: 3rem;
+}
+
+
+/*PAGINA FORTNITE*/
+
+/*empezando a modificar las paginas de los juegos, primero VALORANT*/
+.bodyfort{
+    background-color: #410707;
+}
+/* header*/ /*MODIFICANDO LA BARRA NAVEGADORA PARA QUE QUEDE COMO FIGMA*/
+.headerfort{
+    background-color: #1b3039;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between ;
+    text-shadow: -7px 0px 14px rgba(1,1,1,0.79);
+
+}
+.navfort{
+    padding-top: 30px; /*sirve para alinar LA BARRA*/
+    padding-right: 60px;
+    width: 95%;
+}
+.ulfort{
+    
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between  ;
+
+}
+
+.cajafort1{
+    color: #C69749;
+text-decoration: none;
+font-size: 3rem;
+
+}
+
+.cajafort2{
+    color: #C69749;
+    font-size: 3rem;
+
+}
+
+.cajafort3 a{
+color: #C69749;
+text-decoration: none;
+font-size: 3rem;
+}
+
+
+
